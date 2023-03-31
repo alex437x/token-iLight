@@ -1,0 +1,18 @@
+{
+  "source": [
+    "**/*.tokens.json"
+  ],
+  "platforms": {
+    "css": {
+      "buildPath": "build/scss/",
+      "prefix": "",
+      "transformGroup": "tokens-studio",
+      "files": [
+        {
+          "destination": "_var.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
