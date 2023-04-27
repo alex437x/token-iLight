@@ -1,1 +1,767 @@
-{}
+{
+  "Text": {
+    "Primary": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "основной цвет для текста"
+    },
+    "Secondary": {
+      "value": "#828691",
+      "type": "color",
+      "description": "второстепенный цвет для текста"
+    },
+    "Tertiary": {
+      "value": "#a6aab7",
+      "type": "color",
+      "description": "третичный цвет для текста"
+    },
+    "TertiaryExtra": {
+      "value": "#c1c4d3",
+      "type": "color",
+      "description": "третичный цвет для текста (дополнительный)"
+    },
+    "Contrast": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "текст на интерактивных цветах"
+    },
+    "ContrastThemed": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "текст не меняется в зависимости от темы"
+    },
+    "Accent": {
+      "value": "#0965c8",
+      "type": "color",
+      "description": "– акцентный текст\n– основной цвет ссылок"
+    },
+    "AccentExtra": {
+      "value": "#2a86e9",
+      "type": "color",
+      "description": "– акцентный текст (дополнительный)\n– цвет ссылок при :hover"
+    },
+    "Negative": {
+      "value": "#e64646",
+      "type": "color",
+      "description": "цвет с негативным подтекстом"
+    },
+    "Positive": {
+      "value": "#4bb44b",
+      "type": "color",
+      "description": "текст цвета положительной информации"
+    },
+    "Sidebar": {
+      "value": "#ffffffa3",
+      "type": "color",
+      "description": "текст цвета для Sidebar"
+    },
+    "Sidebar-Hover": {
+      "value": "#ffffffcc",
+      "type": "color",
+      "description": "текст цвета меню Sidebar при :hover"
+    },
+    "Sidebar-Active": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "текст цвета активного пункта меню Sidebar"
+    }
+  },
+  "Bg": {
+    "Primary": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "основной цвет страницы"
+    },
+    "Secondary": {
+      "value": "#f3f3f6",
+      "type": "color",
+      "description": "второстепенный цвет фона"
+    },
+    "Tertiary": {
+      "value": "#e4e5ec",
+      "type": "color",
+      "description": "третичный цвет фона"
+    },
+    "TertiaryExtra": {
+      "value": "#c9cbd9",
+      "type": "color",
+      "description": "третичный цвет фона (дополнительный)"
+    },
+    "Quaternary": {
+      "value": "#a6aab7",
+      "type": "color",
+      "description": "четвертичный цвет фона"
+    },
+    "Contrast": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "контрастный фон"
+    },
+    "Accent": {
+      "value": "#0965c8",
+      "type": "color",
+      "description": "акцентный фон"
+    },
+    "AccentExtra": {
+      "value": "#2a86e9",
+      "type": "color"
+    },
+    "AccentTint": {
+      "value": "#217de01f",
+      "type": "color",
+      "description": "тонированный акцентный фон"
+    },
+    "AccentTint-hover": {
+      "value": "#217de02e",
+      "type": "color",
+      "description": "тонированный акцентный фон при :hover"
+    },
+    "PositiveTint": {
+      "value": "#4bb44b1f",
+      "type": "color",
+      "description": "тонированный фон с положительной информацией"
+    },
+    "Positive": {
+      "value": "#4bb44b",
+      "type": "color",
+      "description": "фон положительной информации"
+    },
+    "NegativeTint": {
+      "value": "#fbe6e6",
+      "type": "color",
+      "description": "тонированный фон для ошибок"
+    },
+    "NegativeTint-Alpha": {
+      "value": "#e646461f",
+      "type": "color",
+      "description": "тонированный фон для ошибок с альфа каналом"
+    },
+    "Negative": {
+      "value": "#e64646",
+      "type": "color",
+      "description": "фон с негативным подтекстом"
+    },
+    "WarningTint": {
+      "value": "#ffa0001f",
+      "type": "color",
+      "description": "тонированный фон с предупреждающей информацией"
+    },
+    "Warning": {
+      "value": "#ffa000",
+      "type": "color",
+      "description": "фон с предупреждающей информацией"
+    },
+    "Row-Hover": {
+      "value": "#f3f3f6",
+      "type": "color",
+      "description": "цвет строки таблицы при наведении"
+    },
+    "TableField": {
+      "value": "#2d376a0f",
+      "type": "color",
+      "description": "фон тега в таблице"
+    },
+    "TableField-Alpha": {
+      "value": "#2d376a1a",
+      "type": "color",
+      "description": "фон тега в таблице с альфа каналом"
+    },
+    "Field": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "фон для input / select / texarea"
+    },
+    "FieldPlain": {
+      "value": "#2d376a0f",
+      "type": "color",
+      "description": "фон для input / select с mode=plain"
+    },
+    "FieldPlain-Hover": {
+      "value": "#2d376a1a",
+      "type": "color",
+      "description": "фон для input / select с mode=plain при :hover"
+    },
+    "Switch": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "фон у checkbox / toggle / radio в состоянии :checked"
+    },
+    "SwitchCenter": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "фон у элементов внутри checkbox / toggle / radio"
+    },
+    "Toggle": {
+      "value": "#2d376a33",
+      "type": "color",
+      "description": "фон у toggle"
+    },
+    "Toggle-Hover": {
+      "value": "#0913375c",
+      "type": "color",
+      "description": "фон у toggle при :hover"
+    },
+    "Dropdown": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "фон для выпадающего списка"
+    },
+    "DropdownItem-Hover": {
+      "value": "#f3f3f6",
+      "type": "color",
+      "description": "фон элемента выпадающего списка при наведении"
+    },
+    "ModalOverlay": {
+      "value": "#2e324233",
+      "type": "color",
+      "description": "фон для наложения под всплывающим окном"
+    },
+    "Tooltip": {
+      "value": "#0e1420e6",
+      "type": "color",
+      "description": "фон подсказок с прозрачностью"
+    },
+    "Sidebar": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "фон для Sidebar"
+    },
+    "BgSidebarMenu-Lvl-1": {
+      "value": "#ffffff14",
+      "type": "color",
+      "description": "фон под пунктом меню в Sidebar при :hover (level-1)"
+    },
+    "BgSidebarMenu-Lvl-1-Active": {
+      "value": "#ffffff26",
+      "type": "color",
+      "description": "фон под активным пунктом меню в Sidebar (level-1)"
+    },
+    "BgSidebarMenu-Lvl-2": {
+      "value": "#ffffff0a",
+      "type": "color",
+      "description": "– фон под пунктом меню в Sidebar при :hover (level-2)\n– фон submenu"
+    },
+    "BgSidebarMenu-Lvl-2-Active": {
+      "value": "#ffffff12",
+      "type": "color",
+      "description": "фон под активным пунктом меню в Sidebar (level-2)"
+    },
+    "SidebarBottom": {
+      "value": "#0e142003",
+      "type": "color",
+      "description": "фон для нижнего блока в Sidebar (для эффекта blur)"
+    },
+    "Page": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "основной цвет страницы"
+    }
+  },
+  "Border": {
+    "Primary": {
+      "value": "#d5d7e1",
+      "type": "color",
+      "description": "основной цвет разделителей на белом фоне"
+    },
+    "Contrast": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "разделитель на интерактивных фонах"
+    },
+    "Accent": {
+      "value": "#0965c8",
+      "type": "color",
+      "description": "акцентная обводка"
+    },
+    "Negative": {
+      "value": "#e64646",
+      "type": "color",
+      "description": "обводка с негативным подтекстом"
+    },
+    "Field": {
+      "value": "#2d376a33",
+      "type": "color",
+      "description": "цвет обводки input / textarea / checkbox / radio"
+    },
+    "Field-Hover": {
+      "value": "#0913375c",
+      "type": "color",
+      "description": "цвет обводки input / textarea / checkbox / radio при :hover"
+    },
+    "Field-Focus": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "цвет линии у полей при :focus"
+    },
+    "Switch": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "цвет линии у radio в состоянии :checked"
+    },
+    "Dropdown": {
+      "value": "#2d376a1f",
+      "type": "color",
+      "description": "цвет разделителей в выпадающем списке"
+    },
+    "DropdownBlock": {
+      "value": "#2d376a1a",
+      "type": "color",
+      "description": "цвет обводки выпадающего списка"
+    }
+  },
+  "Icon": {
+    "Primary": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "основной цвет иконок"
+    },
+    "Secondary": {
+      "value": "#828691",
+      "type": "color",
+      "description": "второстепенный цвет иконок"
+    },
+    "Tertiary": {
+      "value": "#a6aab7",
+      "type": "color",
+      "description": "третичный цвет иконок"
+    },
+    "Quaternary": {
+      "value": "#c1c4d3",
+      "type": "color",
+      "description": "четвертичный цвет иконок"
+    },
+    "Contrast": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "цвет иконок на интерактивных цветах"
+    },
+    "ContrastThemed": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "цвет иконок не меняется в зависимости от темы"
+    },
+    "Accent": {
+      "value": "#0965c8",
+      "type": "color",
+      "description": "иконки акцентного цвета"
+    },
+    "AccentExtra": {
+      "value": "#2a86e9",
+      "type": "color"
+    },
+    "Positive": {
+      "value": "#4bb44b",
+      "type": "color",
+      "description": "иконки цвета положительной информации"
+    },
+    "Negative": {
+      "value": "#e64646",
+      "type": "color",
+      "description": "иконки цвета с негативным подтекстом"
+    },
+    "Sidebar": {
+      "value": "#ffffffa3",
+      "type": "color",
+      "description": "цвет иконок для Sidebar"
+    },
+    "Sidebar-Hover": {
+      "value": "#ffffffcc",
+      "type": "color",
+      "description": "цвет иконок меню Sidebar при :hover"
+    },
+    "Sidebar-Active": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "цвет иконок активного пункта меню Sidebar"
+    }
+  },
+  "Btn": {
+    "Primary": {
+      "value": "#0e1420",
+      "type": "color",
+      "description": "фон основной кнопки"
+    },
+    "Primary-Hover": {
+      "value": "#0965c8",
+      "type": "color",
+      "description": "цвет фона при наведении основной кнопки"
+    },
+    "Primary-Active": {
+      "value": "#1555b6",
+      "type": "color",
+      "description": "активный цвет фона основной кнопки"
+    },
+    "Secondary": {
+      "value": "#2d376a1a",
+      "type": "color",
+      "description": "фон вторичной кнопки"
+    },
+    "Secondary-Hover": {
+      "value": "#2d376a29",
+      "type": "color",
+      "description": "цвет фона при наведении вторичной кнопки"
+    },
+    "Secondary-Active": {
+      "value": "#2d376a33",
+      "type": "color",
+      "description": "активный цвет фона вторичной кнопки"
+    },
+    "Ghost": {
+      "value": "#ffffff00",
+      "type": "color",
+      "description": "фон Ghost кнопки"
+    },
+    "Ghost-Hover": {
+      "value": "#2d376a1a",
+      "type": "color",
+      "description": "цвет фона при наведении Ghost кнопки"
+    },
+    "Ghost-Active": {
+      "value": "#2d376a29",
+      "type": "color",
+      "description": "активный цвет фона Ghost кнопки"
+    },
+    "Action-Hover": {
+      "value": "#2d376a1a",
+      "type": "color",
+      "description": "цвет фона при наведении на кнопку с действием"
+    },
+    "ActionIconContrast": {
+      "value": "#ffffff80",
+      "type": "color",
+      "description": "цвет иконки с действием на интерактивных цветах"
+    },
+    "ActionBgContrast-Hover": {
+      "value": "#ffffff1a",
+      "type": "color",
+      "description": "цвет фона при наведении на кнопку с действием на интерактивных цветах"
+    }
+  },
+  "Disabled": {
+    "Field": {
+      "value": "#2d376a0f",
+      "type": "color",
+      "description": "цвет заблокированного фона input"
+    },
+    "Button": {
+      "value": "#2d376a21",
+      "type": "color",
+      "description": "цвет заблокированного фона кнопки"
+    },
+    "Border": {
+      "value": "#2d376a21",
+      "type": "color",
+      "description": "цвет заблокированного контура"
+    },
+    "Icon-Ghost": {
+      "value": "#2d376a33",
+      "type": "color",
+      "description": "цвет заблокированной иконки у кнопки Ghost"
+    },
+    "Toggle": {
+      "value": "#2d376a42",
+      "type": "color",
+      "description": "цвет заблокированной точки и обводки у неактивного toggle "
+    },
+    "TextExtra": {
+      "value": "#2d376a5c",
+      "type": "color",
+      "description": "цвет заблокированного текста (высветленный)"
+    },
+    "Text": {
+      "value": "#0913375c",
+      "type": "color",
+      "description": "– цвет заблокированного текста\n– цвет заблокированной иконки"
+    }
+  },
+  "Skeleton": {
+    "From": {
+      "value": "#e4e5ec",
+      "type": "color",
+      "description": "цвет градиента скелетона"
+    },
+    "To": {
+      "value": "#f3f3f6",
+      "type": "color",
+      "description": "цвет градиента скелетона"
+    }
+  },
+  "Page Section Top": {
+    "BgDotPattern": {
+      "value": "#d5d7e1",
+      "type": "color",
+      "description": "фон точек для паттерна текста "
+    }
+  },
+  "Scrollbar": {
+    "ScrollTrack": {
+      "value": "#2d376a0d",
+      "type": "color",
+      "description": "фон трека скролла"
+    },
+    "ScrollThumb": {
+      "value": "#2d376a33",
+      "type": "color",
+      "description": "фон ползунка в скролле"
+    },
+    "ScrollThumb-Hover": {
+      "value": "#2d376a42",
+      "type": "color",
+      "description": "фон ползунка в скролле при наведении"
+    },
+    "ScrollTrackContrast": {
+      "value": "#ffffff0a",
+      "type": "color",
+      "description": "фон трека скролла на интерактивных цветах"
+    },
+    "ScrollThumbContrast": {
+      "value": "#ffffff29",
+      "type": "color",
+      "description": "фон ползунка в скролле на интерактивных цветах"
+    },
+    "ScrollThumbContrast-Hover": {
+      "value": "#ffffff3d",
+      "type": "color",
+      "description": "фон ползунка в скролле при наведении на интерактивных цветах"
+    }
+  },
+  "Core": {
+    "Gray": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "50": {
+        "value": "#f7f7f9",
+        "type": "color"
+      },
+      "100": {
+        "value": "#f3f3f6",
+        "type": "color"
+      },
+      "150": {
+        "value": "#eaebf1",
+        "type": "color"
+      },
+      "200": {
+        "value": "#e4e5ec",
+        "type": "color"
+      },
+      "250": {
+        "value": "#dddfe7",
+        "type": "color"
+      },
+      "300": {
+        "value": "#d5d7e1",
+        "type": "color"
+      },
+      "350": {
+        "value": "#c9cbd9",
+        "type": "color"
+      },
+      "400": {
+        "value": "#c1c4d3",
+        "type": "color"
+      },
+      "450": {
+        "value": "#b3b7c9",
+        "type": "color"
+      },
+      "500": {
+        "value": "#a6aab7",
+        "type": "color"
+      },
+      "550": {
+        "value": "#828691",
+        "type": "color"
+      },
+      "600": {
+        "value": "#6c707e",
+        "type": "color"
+      },
+      "700": {
+        "value": "#4f5363",
+        "type": "color"
+      },
+      "800": {
+        "value": "#2e3242",
+        "type": "color"
+      },
+      "900": {
+        "value": "#0e1420",
+        "type": "color",
+        "description": "основной цвет для текста"
+      },
+      "1000": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Alpha": {
+        "1": {
+          "value": "#2d376a",
+          "type": "color",
+          "description": "основной цвет для альфа канала для цветов gray-50 – 450"
+        },
+        "2": {
+          "value": "#091337",
+          "type": "color",
+          "description": "основной цвет для альфа канала для цветов gray-500"
+        },
+        "3": {
+          "value": "#0b1127",
+          "type": "color",
+          "description": "основной цвет для альфа канала для цветов gray-550 – 700"
+        },
+        "4": {
+          "value": "#0c1123",
+          "type": "color",
+          "description": "основной цвет для альфа канала для цветов gray-800"
+        },
+        "50": {
+          "value": "#2d376a0a",
+          "type": "color",
+          "description": "gray-alpha-1 / 4%"
+        },
+        "100": {
+          "value": "#2d376a0f",
+          "type": "color",
+          "description": "gray-alpha-1 / 6%"
+        },
+        "150": {
+          "value": "#2d376a1a",
+          "type": "color",
+          "description": "gray-alpha-1 / 10%"
+        },
+        "200": {
+          "value": "#2d376a21",
+          "type": "color",
+          "description": "gray-alpha-1 / 13%"
+        },
+        "250": {
+          "value": "#2d376a29",
+          "type": "color",
+          "description": "gray-alpha-1 / 16%"
+        },
+        "300": {
+          "value": "#2d376a33",
+          "type": "color",
+          "description": "gray-alpha-1 / 20%"
+        },
+        "350": {
+          "value": "#2d376a42",
+          "type": "color",
+          "description": "gray-alpha-1 / 26%"
+        },
+        "400": {
+          "value": "#2d376a4d",
+          "type": "color",
+          "description": "gray-alpha-1 / 30%"
+        },
+        "450": {
+          "value": "#2d376a5c",
+          "type": "color",
+          "description": "gray-alpha-1 / 36%"
+        },
+        "500": {
+          "value": "#0913375c",
+          "type": "color",
+          "description": "gray-alpha-2 / 36%"
+        },
+        "550": {
+          "value": "#0b112782",
+          "type": "color",
+          "description": "gray-alpha-3 / 51%"
+        },
+        "600": {
+          "value": "#0b112799",
+          "type": "color",
+          "description": "gray-alpha-3 / 60%"
+        },
+        "700": {
+          "value": "#0b1127b8",
+          "type": "color",
+          "description": "gray-alpha-3 / 72%"
+        },
+        "800": {
+          "value": "#0c1123db",
+          "type": "color",
+          "description": "gray-alpha-4 / 86%"
+        }
+      }
+    },
+    "Accent": {
+      "100": {
+        "value": "#2a86e91f",
+        "type": "color"
+      },
+      "150": {
+        "value": "#2a86e92e",
+        "type": "color"
+      },
+      "170": {
+        "value": "#50a8ff",
+        "type": "color"
+      },
+      "200": {
+        "value": "#2a86e9",
+        "type": "color"
+      },
+      "300": {
+        "value": "#0965c8",
+        "type": "color"
+      },
+      "350": {
+        "value": "#1555b6",
+        "type": "color"
+      }
+    },
+    "Success": {
+      "100": {
+        "value": "#4bb44b1f",
+        "type": "color"
+      },
+      "400": {
+        "value": "#4bb44b",
+        "type": "color"
+      }
+    },
+    "Negative": {
+      "100": {
+        "value": "#fce8e8",
+        "type": "color"
+      },
+      "300": {
+        "value": "#f15b56",
+        "type": "color"
+      },
+      "400": {
+        "value": "#e64646",
+        "type": "color"
+      },
+      "100-alhpa": {
+        "value": "#e646461f",
+        "type": "color"
+      }
+    },
+    "Warning": {
+      "100": {
+        "value": "#ffa0001f",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ffa000",
+        "type": "color"
+      }
+    },
+    "Palette": {
+      "170": {
+        "value": "#bf87ff",
+        "type": "color"
+      },
+      "200": {
+        "value": "#9e48ff",
+        "type": "color"
+      }
+    }
+  }
+}
