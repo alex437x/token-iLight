@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "iLight-light",
-    "iLight-dark"
+    "iLight/light",
+    "iLight/dark"
   ]
 }
