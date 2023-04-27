@@ -3,8 +3,7 @@
     "id": "08af804f08442686da62fe938e80f924f4a9d390",
     "name": "light",
     "selectedTokenSets": {
-      "iLight/light": "enabled",
-      "iLight/dark": "disabled"
+      "iLight/light": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -12,7 +11,6 @@
     "id": "e2b54f42a73769a7f4e0955a515f534430073ee0",
     "name": "dark",
     "selectedTokenSets": {
-      "iLight/light": "disabled",
       "iLight/dark": "enabled"
     },
     "$figmaStyleReferences": {}
