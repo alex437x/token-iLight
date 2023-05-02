@@ -142,7 +142,7 @@
       "description": "фон с негативным подтекстом"
     },
     "WarningTint": {
-      "value": "#ffa0001f",
+      "value": "#ffa00014",
       "type": "color",
       "description": "тонированный фон с предупреждающей информацией"
     },
@@ -358,6 +358,11 @@
       "value": "#e64646",
       "type": "color",
       "description": "иконки цвета с негативным подтекстом"
+    },
+    "Warning": {
+      "value": "#bd6d33",
+      "type": "color",
+      "description": "цвет иконки с предупреждающей информацией"
     },
     "Sidebar": {
       "value": "#ffffffa3",
@@ -690,6 +695,10 @@
       }
     },
     "Accent": {
+      "50": {
+        "value": "#2a86e914",
+        "type": "color"
+      },
       "100": {
         "value": "#2a86e91f",
         "type": "color"
@@ -716,6 +725,10 @@
       }
     },
     "Success": {
+      "50": {
+        "value": "#4bb44b14",
+        "type": "color"
+      },
       "100": {
         "value": "#4bb44b1f",
         "type": "color"
@@ -723,9 +736,21 @@
       "400": {
         "value": "#4bb44b",
         "type": "color"
+      },
+      "500": {
+        "value": "#3ca03e",
+        "type": "color"
+      },
+      "600": {
+        "value": "#2f8d32",
+        "type": "color"
       }
     },
     "Negative": {
+      "50": {
+        "value": "#e6464614",
+        "type": "color"
+      },
       "100": {
         "value": "#fce8e8",
         "type": "color"
@@ -738,18 +763,34 @@
         "value": "#e64646",
         "type": "color"
       },
+      "500": {
+        "value": "#d83e3c",
+        "type": "color"
+      },
+      "600": {
+        "value": "#c93633",
+        "type": "color"
+      },
       "100-alhpa": {
         "value": "#e646461f",
         "type": "color"
       }
     },
     "Warning": {
+      "50": {
+        "value": "#ffa00014",
+        "type": "color"
+      },
       "100": {
         "value": "#ffa0001f",
         "type": "color"
       },
       "400": {
         "value": "#ffa000",
+        "type": "color"
+      },
+      "700": {
+        "value": "#bd6d33",
         "type": "color"
       }
     },
@@ -760,6 +801,10 @@
       },
       "200": {
         "value": "#9e48ff",
+        "type": "color"
+      },
+      "300": {
+        "value": "#801ef0",
         "type": "color"
       }
     }
