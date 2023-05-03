@@ -188,7 +188,7 @@
       "description": "фон у checkbox / toggle / radio в состоянии :checked"
     },
     "SwitchCenter": {
-      "value": "#f5f5fd",
+      "value": "#1B1B1E",
       "type": "color",
       "description": "фон у элементов внутри checkbox / toggle / radio"
     },
