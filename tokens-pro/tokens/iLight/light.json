@@ -795,16 +795,16 @@
       }
     },
     "Palette": {
-      "170": {
-        "value": "#bf87ff",
-        "type": "color"
-      },
       "200": {
         "value": "#9e48ff",
         "type": "color"
       },
       "300": {
         "value": "#801ef0",
+        "type": "color"
+      },
+      "1700": {
+        "value": "#bf87ff",
         "type": "color"
       }
     }
